@@ -1,1 +1,1 @@
-# various-web-assets
+# Various Web Assets for Personal Projects
