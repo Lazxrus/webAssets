@@ -32,3 +32,11 @@
     opacity: 1;
     translate: 0 0;
 }
+
+.background {
+    display: flex;
+    position: relative;
+    width: 100vh;
+    height: 40vh;
+    margin: auto;
+}
