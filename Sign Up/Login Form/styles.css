@@ -115,8 +115,31 @@ h6 span {
     border-radius: 6px;
     -webkit-transform-style: preserve-3d;
 }
-/* line 103 */
 
 .card-back {
-
+    transform: rotateY(180deg);
 }
+
+.checkbox:checked ~ .card-3d-wrap .card-3d-wrapper {
+    transform: rotateY(180deg);
+}
+
+.center-wrap {
+    position: absolute;
+    width: 100%;
+    padding: 0 35px;
+    top: 50%;
+    left: 0;
+    transform: translate3d(0, -50%, 35px) perspective(100px);
+    z-index: 20;
+    display: block;
+}
+
+.form-group {
+    position: relative;
+    display: block;
+        margin: 0;
+        padding: 0;
+}
+
+/* Line 125 */
